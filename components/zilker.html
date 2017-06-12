@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Zilker Rock</title>
+    <link rel="stylesheet" href="zilker.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="zilker.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="zilker">
+      <p id="initial-instructions" class="instructions">Click on the dog to see what they need for the party! Once you find their item, click it to add it to your backpack<button class="close">Done</button> </p>
+      <p id="second-instructions" class="instructions">Click on the backpack to see items you have collected<button class="close">Done</button> </p>
+      <p id="third-instructions" class="instructions">Click on the item to select it, then click on the dog who needs it to give them the item<button class="close">Done</button> </p>
+      <img class="ginny" src="img/Ginny.png" alt="ginny dog">
+      <div class="speech-bubble">
+        <p>Help me find my sheep!</p>
+      </div>
+      <img class="sheep-toy" src="img/FluffySheep.png" alt="sheep toy">
+    </div>
+    <div class="items">
+      <div class="backpack-items">
+        <p id="zilker-hints" class="instructions"><button class="close">X</button> Remember to click a dog to see what they need! Select an item then click a dog to give the dog the item. Hint: Look behind the tree!</p>
+        <img class="backpack-sheep hidden-item" src="img/FluffySheep.png" alt="backpack item sheep"/>
+      </div>
+      <img class="backpack" src="img/Backpack.png" alt="backpack">
+    </div>
+    <button class="help-button">Help!</button>
+  </body>
+</html>

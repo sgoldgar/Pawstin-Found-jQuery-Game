@@ -1,0 +1,40 @@
+/*Glasoor font*/
+@font-face {
+  font-family: 'Glasoor';
+  src: url('glasoor.woff') format('woff') /* Pretty Modern Browsers */
+}
+
+
+/*@import url('https://fonts.googleapis.com/css?family=Syncopate:400,700');
+@import url('https://fonts.googleapis.com/css?family=Changa:300,400,500,700');*/
+@import url('https://fonts.googleapis.com/css?family=Happy+Monkey');
+
+body{
+  background: #9397D6;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  font-family: 'Glasoor';
+  color: #E6E1C5;
+}
+
+.home h1{
+  font-size: 400%;
+}
+
+.home a{
+  font-size: 200%;
+  color: #FDA0BF;
+  text-decoration: none;
+}
+
+.home a:hover{
+  font-size: 250%;
+  transition: ease;
+  text-decoration: underline;
+}
