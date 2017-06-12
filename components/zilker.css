@@ -22,6 +22,8 @@ body{
   transform: translateX(275px) translateY(300px);
 }
 
+
+/*backpack and items*/
 .items{
   background: #9397D6;
 }
@@ -47,6 +49,19 @@ body{
   height: 150px;
   transform: translateX(840px) translateY(300px);
 }
+
+.backpack-sheep{
+  position: absolute;
+  height: 100px;
+  transform: translateX(900px) translateY(20px);
+}
+
+.highlighted-item{
+  background:  rgba(255, 245, 176, 0.7);
+  border-radius: 50%;
+}
+
+/*instructions and speech bubbles*/
 .speech-bubble{
   background: white;
   border-radius: 50%;
@@ -147,16 +162,6 @@ body{
   background: white;
 }
 
-.backpack-sheep{
-  position: absolute;
-  height: 100px;
-  transform: translateX(900px) translateY(20px);
-}
-
-.highlighted-item{
-  background:  rgba(255, 245, 176, 0.7);
-  border-radius: 50%;
-}
 
 .help-button{
   font-size: 20px;
